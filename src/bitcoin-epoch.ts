@@ -5,8 +5,6 @@
 
 
 /**
- * TODO: document
+ * Date representing the start of the Bitcoin epoch.
  */
-export default function bitcoinEpoch() {
-    // TODO: implement
-}
+export const BITCOIN_EPOCH = new Date('2009-01-03T00:00:00.000Z')

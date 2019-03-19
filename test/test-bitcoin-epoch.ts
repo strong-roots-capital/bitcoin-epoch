@@ -4,10 +4,8 @@ import test from 'ava'
  * Library under test
  */
 
-import bitcoinEpoch from '../src/bitcoin-epoch'
+import { BITCOIN_EPOCH } from '../src/bitcoin-epoch'
 
 test('test ava configuration', t => {
-    t.pass()
+    t.is(1230940800000, BITCOIN_EPOCH.valueOf())
 })
-
-// TODO: write tests
