@@ -1,6 +1,6 @@
 {
   "name": "@strong-roots-capital/bitcoin-epoch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start of the Bitcoin epoch",
   "main": "dist/bitcoin-epoch.js",
   "types": "dist/bitcoin-epoch.d.ts",
